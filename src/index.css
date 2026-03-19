@@ -207,6 +207,7 @@ section h2{
 }
 
 .card{
+  display: flex;
   background:rgba(255, 255, 255, 0.6);;
   padding:25px;
   border-radius:20px;
@@ -214,6 +215,8 @@ section h2{
   box-shadow:0 10px 30px rgba(0, 0, 0, 0.05);
   transition:all 0.3s ease;
   cursor: pointer;
+  justify-content: center;
+  align-items:center ;
 }
 
 .card img{

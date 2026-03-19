@@ -29,9 +29,10 @@ const Home = () => {
 
         {/* Buttons */}
         <div className="button-group">
-          <a href="/KARTHICK RESUME 2026 (1).pdf" download>
-            <button className="primary-btn">Download Resume</button>
-          </a>
+          <a href="/resume.pdf" download target="_blank">
+  <button className="primary-btn">Download Resume</button>
+</a>
+
 
           <Link to="/contact">
             <button className="secondary-btn">Contact Me</button>
