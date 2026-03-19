@@ -8,10 +8,10 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Portfolio Website",
-    description: "My personal portfolio made with React and Vite.",
+    title: "Weather App",
+    description: "A modern Weather App built with React JS that fetches real-time data from the OpenWeatherMap API",
     image: "/images/Weather.png",
-    liveLink: "https://my-portfolio-website-five-sage.vercel.app/",
+    liveLink: "https://weather-app-using-react-dun.vercel.app/",
   },
   
 ];
