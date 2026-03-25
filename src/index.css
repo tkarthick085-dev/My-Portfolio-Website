@@ -8,9 +8,8 @@
 
 body{
   font-family:'Inter',sans-serif;
-  background: linear-gradient(135deg, #e9e9e9 0%, #ffffff 100%);
+ background: radial-gradient(ellipse at bottom left, #f9ceee, #f9f3ee, #ccf3ee);
 }
-
 a{
   text-decoration:none;
   color:inherit;
@@ -18,20 +17,21 @@ a{
 
 /* ================= NAVBAR ================= */
 
-nav{
+/* nav{
   position: fixed;
   top: 0;
   width: 100%;
   height: 70px;
-  background: black;
-
+  background: rgba(255, 255, 255, 0.2); 
+  backdrop-filter: blur(12px); 
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   display: flex;
   justify-content: space-between; /* KEY FIX */
-  align-items: center;
+  /* align-items: center;
 
   padding: 0 40px; /* give breathing space */
-  z-index: 1000;
-}
+  /* z-index: 1000; */
+ */ */
 
 nav ul{
   display:flex;
@@ -106,19 +106,19 @@ main{
 }
 
 .hero-title span {
-  color: #2563eb;
+  color: #1e40af;
 }
 
 .hero-role {
   font-size: 20px;
-  color: gray;
+  color: #374151;
   margin: 10px 0;
 }
 
 .hero-text {
   font-size: 15px;
   margin-bottom: 25px;
-  color: #555;
+  color: #4b5563;
 }
 
 /* Buttons */
@@ -142,7 +142,7 @@ main{
 }
 
 .primary-btn:hover {
-  background: #1e40af;
+  background: #2563eb;
 }
 
 .secondary-btn:hover {
@@ -176,7 +176,7 @@ button{
 }
 
 button:hover{
-  background:#1e40af;
+  background:#2563eb;
 }
 
 /* ================= SECTIONS ================= */
@@ -369,7 +369,7 @@ section h2{
 footer{
   text-align:center;
   padding:15px;
-  background:rgb(246, 245, 245);
+  
   color:rgb(6, 0, 0);
 }
 
@@ -501,8 +501,7 @@ footer{
   top: 0;
   width: 100%;
   height: 70px;
-  background: black;
-
+  
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -513,7 +512,7 @@ footer{
 
 /* Logo */
 .logo {
-  color: white;
+  color: rgb(5, 0, 0);
 }
 
 /* Links (desktop) */
@@ -523,8 +522,8 @@ footer{
 }
 
 .nav-links a {
-  color: white;
-  font-size: 16px;
+  color: #333; 
+  font-weight: 500;
 }
 
 /* Icons */
@@ -534,7 +533,7 @@ footer{
 }
 
 .nav-icons svg {
-  color: white;
+  color: rgb(9, 0, 0);
   font-size: 20px;
 }
 
@@ -599,7 +598,7 @@ footer{
 }
 
 .project-card {
-  background-color: #fff;
+  background-color: #ffffff;
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   overflow: hidden;
