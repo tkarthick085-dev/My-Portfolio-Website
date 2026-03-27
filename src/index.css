@@ -540,7 +540,7 @@ footer{
 /* Hamburger (hidden in desktop) */
 .menu-toggle {
   display: none;
-  color: white;
+  color: rgb(2, 0, 0);
   font-size: 24px;
   cursor: pointer;
 }
@@ -555,7 +555,7 @@ footer{
     left: 0;
     width: 100%;
 
-    background: black;
+    background: rgb(252, 250, 250);
     flex-direction: column;
     align-items: center;
     gap: 20px;
