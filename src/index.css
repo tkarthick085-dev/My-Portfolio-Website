@@ -17,7 +17,7 @@ a {
 }
 
 
-*/ */ nav ul {
+nav ul {
   display: flex;
   list-style: none;
   gap: 25px;
@@ -45,13 +45,6 @@ main {
   flex: 1;
   padding-top: 70px;
 }
-
-
-
-
-
-
-
 /* ================= AVATAR ================= */
 
 .avatar {
